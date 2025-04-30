@@ -17,7 +17,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: ghcr.io/nikhilgowda-135/publish-packages/game11
+          images: ghcr.io/nikhilgowda-135/publish-packages/game135
           tags: type=sha
       - name: Login to GHCR
         uses: docker/login-action@v3
